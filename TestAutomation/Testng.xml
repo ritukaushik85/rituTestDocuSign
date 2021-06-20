@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestingSuite" parallel="none">
+<test verbose = "2" preserve-order="true" name="selTest">
+    <parameter name="driver" value="driver" />
+    <classes>
+        <class name="com.SeleniumTests.DocuSignAssignment"/>
+<!--        <class name="com.SeleniumTests.BasePageObject"/>-->
+<!--        <class name="com.SeleniumTests.HomePageObject"/>-->
+<!--        <class name="com.SeleniumTests.SearchResultsPage"/>-->
+<!--        <class name="com.SeleniumTests.DownloadAndPrintDocPage"/>-->
+
+    </classes>
+</test>
+
+</suite>
